@@ -19,10 +19,10 @@
 		0AEE30062506B62B003FCA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEE30042506B62B003FCA10 /* LaunchScreen.storyboard */; };
 		0AF67B9F2506F17C0050FD04 /* NewBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF67B9E2506F17C0050FD04 /* NewBookViewController.swift */; };
 		0AF67BA12506F6300050FD04 /* LibraryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF67BA02506F6300050FD04 /* LibraryHeaderView.xib */; };
-		FA96B2C2274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro detail view.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2BE274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro detail view.png */; };
-		FA96B2C3274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro dark.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2BF274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro dark.png */; };
-		FA96B2C4274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro main.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2C0274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro main.png */; };
-		FA96B2C5274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro add view.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2C1274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro add view.png */; };
+		FA96B2C2274BB7C60020403C /* DetailView.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2BE274BB7C60020403C /* DetailView.png */; };
+		FA96B2C3274BB7C60020403C /* DarkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2BF274BB7C60020403C /* DarkMode.png */; };
+		FA96B2C4274BB7C60020403C /* MainView.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2C0274BB7C60020403C /* MainView.png */; };
+		FA96B2C5274BB7C60020403C /* AddView.png in Resources */ = {isa = PBXBuildFile; fileRef = FA96B2C1274BB7C60020403C /* AddView.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		0AEE30072506B62B003FCA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AF67B9E2506F17C0050FD04 /* NewBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookViewController.swift; sourceTree = "<group>"; };
 		0AF67BA02506F6300050FD04 /* LibraryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LibraryHeaderView.xib; sourceTree = "<group>"; };
-		FA96B2BE274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro detail view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro detail view.png"; sourceTree = "<group>"; };
-		FA96B2BF274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro dark.png"; sourceTree = "<group>"; };
-		FA96B2C0274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro main.png"; sourceTree = "<group>"; };
-		FA96B2C1274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro add view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro add view.png"; sourceTree = "<group>"; };
+		FA96B2BE274BB7C60020403C /* DetailView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DetailView.png; sourceTree = "<group>"; };
+		FA96B2BF274BB7C60020403C /* DarkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkMode.png; sourceTree = "<group>"; };
+		FA96B2C0274BB7C60020403C /* MainView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainView.png; sourceTree = "<group>"; };
+		FA96B2C1274BB7C60020403C /* AddView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddView.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		FA96B2B5274BB6660020403C /* Preview */ = {
 			isa = PBXGroup;
 			children = (
-				FA96B2C1274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro add view.png */,
-				FA96B2BF274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro dark.png */,
-				FA96B2BE274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro detail view.png */,
-				FA96B2C0274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro main.png */,
+				FA96B2C1274BB7C60020403C /* AddView.png */,
+				FA96B2BF274BB7C60020403C /* DarkMode.png */,
+				FA96B2BE274BB7C60020403C /* DetailView.png */,
+				FA96B2C0274BB7C60020403C /* MainView.png */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -162,13 +162,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA96B2C4274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro main.png in Resources */,
+				FA96B2C4274BB7C60020403C /* MainView.png in Resources */,
 				0AEE30062506B62B003FCA10 /* LaunchScreen.storyboard in Resources */,
-				FA96B2C5274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro add view.png in Resources */,
+				FA96B2C5274BB7C60020403C /* AddView.png in Resources */,
 				0AEE30032506B62B003FCA10 /* Assets.xcassets in Resources */,
-				FA96B2C3274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro dark.png in Resources */,
+				FA96B2C3274BB7C60020403C /* DarkMode.png in Resources */,
 				0AEE30012506B62A003FCA10 /* Main.storyboard in Resources */,
-				FA96B2C2274BB7C60020403C /* Simulator Screen Shot - iPhone 11 Pro detail view.png in Resources */,
+				FA96B2C2274BB7C60020403C /* DetailView.png in Resources */,
 				0AF67BA12506F6300050FD04 /* LibraryHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
